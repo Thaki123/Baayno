@@ -200,6 +200,20 @@ body {
 .thumb,
 .svc-thumb {
   width: 100%;
+  display: block;
+}
+
+.thumb {
+  background: var(--thumb-bg, linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02)));
+}
+
+.svc-thumb {
+  background: var(--svc-thumb, linear-gradient(135deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.02)));
+}
+
+.thumb img,
+.svc-thumb img {
+  width: 100%;
   height: auto;
   display: block;
 }
